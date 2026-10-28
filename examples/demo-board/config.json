@@ -1,0 +1,47 @@
+{
+  "swarmdesk": "0.1.0",
+  "human": "Dana",
+  "profile": "software-team",
+  "checkin_minutes": 15,
+  "line_cap": 700,
+  "types": [
+    "STATUS",
+    "ASK",
+    "ANSWER",
+    "BLOCKED",
+    "CLAIM",
+    "REVIEW-REQ",
+    "REVIEW-RESULT",
+    "HANDOFF",
+    "DONE",
+    "DECISION"
+  ],
+  "credential_patterns": [],
+  "roster": [
+    {
+      "id": "MGR",
+      "role": "manager",
+      "harness": "claude-code"
+    },
+    {
+      "id": "S1",
+      "role": "worker",
+      "harness": "codex"
+    },
+    {
+      "id": "S2",
+      "role": "worker",
+      "harness": "gemini"
+    },
+    {
+      "id": "REV",
+      "role": "reviewer",
+      "harness": "claude-code"
+    },
+    {
+      "id": "RUN",
+      "role": "runner",
+      "harness": "codex"
+    }
+  ]
+}
