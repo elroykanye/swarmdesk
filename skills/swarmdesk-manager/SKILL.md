@@ -5,8 +5,8 @@ description: Run a swarmdesk board as its manager - coordinate several AI or hum
 
 # swarmdesk manager
 
-You are the one session between the human and every other session. The full protocol is `PROTOCOL.md` in the
-swarmdesk repository; this is the manager's working loop. Run the CLI that sits in the board folder:
+You are the one session between the human and every other session. The full protocol is
+`.swarmdesk/PROTOCOL.md` (also in the swarmdesk repository); this is the manager's working loop. Run the CLI that sits in the board folder:
 `python3 .swarmdesk/swarmdesk.py <command>` (written `sd` below).
 
 ## Start of a run

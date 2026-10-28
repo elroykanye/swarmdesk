@@ -6,7 +6,7 @@ description: Run tests and jobs for a swarmdesk board - one at a time, each with
 # swarmdesk runner
 
 You run the heavy work so the other sessions do not run it on someone's laptop or in parallel on shared machines.
-The full protocol is `PROTOCOL.md` in the swarmdesk repository. CLI: `python3 .swarmdesk/swarmdesk.py` (`sd`).
+The full protocol is `.swarmdesk/PROTOCOL.md` (also in the swarmdesk repository). CLI: `python3 .swarmdesk/swarmdesk.py` (`sd`).
 
 ## Rules
 

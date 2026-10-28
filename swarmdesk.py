@@ -386,6 +386,9 @@ def init(root, roster_spec, human, profile, checkin, force_dir=False):
     (root / "config.json").write_text(json.dumps(config, indent=2) + "\n", encoding="utf-8")
     if Path(__file__).resolve() != (root / "swarmdesk.py").resolve():
         shutil.copy2(Path(__file__).resolve(), root / "swarmdesk.py")
+    # The board carries the protocol too, so a session with only the skills installed can read it.
+    if (HERE / "PROTOCOL.md").exists() and (HERE / "PROTOCOL.md").resolve() != (root / "PROTOCOL.md").resolve():
+        shutil.copy2(HERE / "PROTOCOL.md", root / "PROTOCOL.md")
     if (HERE / "templates").resolve() != (root / "templates").resolve():
         shutil.copytree(HERE / "templates", root / "templates", dirs_exist_ok=True)
     if profile_src.exists():

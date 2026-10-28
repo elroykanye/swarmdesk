@@ -6,7 +6,7 @@ description: Work as a session on a swarmdesk board - read your brief, talk only
 # swarmdesk worker
 
 You are one session among several, with one manager between you and the human. The full protocol is
-`PROTOCOL.md` in the swarmdesk repository. Run the CLI in the board folder: `python3 .swarmdesk/swarmdesk.py`
+`.swarmdesk/PROTOCOL.md` (also in the swarmdesk repository). Run the CLI in the board folder: `python3 .swarmdesk/swarmdesk.py`
 (written `sd` below). Your ID is the one your prompt or brief gives you.
 
 ## Start

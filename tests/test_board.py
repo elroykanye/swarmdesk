@@ -16,7 +16,8 @@ import swarmdesk  # noqa: E402
 class Init(BoardCase):
     def test_layout(self):
         for p in ["config.json", "README.md", "swarmdesk.py", "chat", "state", "briefs", "reviews",
-                  "handovers", "decisions.md", "for-human.md", "templates/brief.md"]:
+                  "handovers", "decisions.md", "for-human.md", "templates/brief.md", "PROTOCOL.md",
+                  "PROFILE.md"]:
             self.assertTrue((self.board / p).exists(), p)
         cfg = json.loads((self.board / "config.json").read_text())
         self.assertEqual([m["id"] for m in cfg["roster"]], ["MGR", "S1", "S2", "REV", "RUN"])

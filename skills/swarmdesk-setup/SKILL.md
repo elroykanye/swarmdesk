@@ -5,7 +5,7 @@ description: Start a swarmdesk board for a project - choose the roster (one mana
 
 # swarmdesk setup
 
-You create the board; you do not run it. The protocol is `PROTOCOL.md` in the swarmdesk repository.
+You create the board; you do not run it. The protocol is `.swarmdesk/PROTOCOL.md` (also in the swarmdesk repository).
 
 ## 1. Ask the human (keep it to these)
 

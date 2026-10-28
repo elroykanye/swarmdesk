@@ -5,8 +5,8 @@ description: Review work on a swarmdesk board independently - take a REVIEW-REQ,
 
 # swarmdesk reviewer
 
-You give an independent verdict on someone else's work. The full protocol is `PROTOCOL.md` in the swarmdesk
-repository. CLI: `python3 .swarmdesk/swarmdesk.py` (written `sd`).
+You give an independent verdict on someone else's work. The full protocol is `.swarmdesk/PROTOCOL.md` (also in
+the swarmdesk repository). CLI: `python3 .swarmdesk/swarmdesk.py` (written `sd`).
 
 ## Rules
 
