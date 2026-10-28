@@ -1,0 +1,17 @@
+{
+  "name": "swarmdesk",
+  "owner": {
+    "name": "Elroy Kanye",
+    "url": "https://github.com/elroykanye"
+  },
+  "metadata": {
+    "description": "swarmdesk: one manager and many AI sessions coordinating through one board, on any harness."
+  },
+  "plugins": [
+    {
+      "name": "swarmdesk",
+      "source": "./",
+      "description": "One board for one manager and many AI sessions on any harness: an append-only channel, briefs, state files, handovers and a decision log, with skills for the manager, workers, reviewer and runner."
+    }
+  ]
+}

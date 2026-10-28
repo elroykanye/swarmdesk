@@ -1,0 +1,3 @@
+#!/bin/sh
+# Run the swarmdesk CLI from anywhere: put this folder on PATH, or call it by path.
+exec python3 "$(dirname "$0")/../swarmdesk.py" "$@"

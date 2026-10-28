@@ -1,0 +1,19 @@
+{
+  "name": "swarmdesk",
+  "description": "One board for one manager and many AI sessions on any harness: an append-only channel, briefs, state files, handovers and a decision log, with skills for the manager, workers, reviewer and runner.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Elroy Kanye"
+  },
+  "homepage": "https://github.com/elroykanye/swarmdesk",
+  "repository": "https://github.com/elroykanye/swarmdesk",
+  "license": "MIT",
+  "keywords": [
+    "multi-agent",
+    "coordination",
+    "orchestration",
+    "manager",
+    "agents",
+    "workflow"
+  ]
+}
