@@ -1,0 +1,16 @@
+{
+  "id": "generic",
+  "label": "Any harness that reads AGENTS.md",
+  "status": "unverified",
+  "detect": [
+    "AGENTS.md"
+  ],
+  "project_dir": ".agents/swarmdesk",
+  "user_dir": "~/.agents/swarmdesk",
+  "layout": "dir",
+  "entry": "SKILL.md",
+  "frontmatter": "none",
+  "index": "AGENTS.md",
+  "invocation": "read .agents/swarmdesk/{skill}/SKILL.md and follow it",
+  "notes": "Paths follow the harness's documented convention (as used by vince-gate's binding of the same id). Not yet watched loading swarmdesk's skills; promote to verified only after doing that."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "gemini",
+  "label": "Gemini CLI",
+  "status": "unverified",
+  "detect": [
+    ".gemini",
+    "GEMINI.md"
+  ],
+  "project_dir": ".gemini/skills",
+  "user_dir": "~/.gemini/skills",
+  "layout": "dir",
+  "entry": "SKILL.md",
+  "frontmatter": "yaml",
+  "index": null,
+  "invocation": "describe the task; Gemini activates the matching skill",
+  "notes": "Paths follow the harness's documented convention (as used by vince-gate's binding of the same id). Not yet watched loading swarmdesk's skills; promote to verified only after doing that."
+}

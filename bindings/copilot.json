@@ -1,0 +1,17 @@
+{
+  "id": "copilot",
+  "label": "GitHub Copilot",
+  "status": "unverified",
+  "detect": [
+    ".github/copilot-instructions.md",
+    ".github/skills"
+  ],
+  "project_dir": ".github/skills",
+  "user_dir": "~/.copilot/skills",
+  "layout": "dir",
+  "entry": "SKILL.md",
+  "frontmatter": "yaml",
+  "index": null,
+  "invocation": "describe the task; Copilot loads the matching skill",
+  "notes": "Paths follow the harness's documented convention (as used by vince-gate's binding of the same id). Not yet watched loading swarmdesk's skills; promote to verified only after doing that."
+}

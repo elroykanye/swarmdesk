@@ -1,0 +1,16 @@
+{
+  "id": "claude",
+  "label": "Claude Code",
+  "status": "unverified",
+  "detect": [
+    ".claude"
+  ],
+  "project_dir": ".claude/skills",
+  "user_dir": "~/.claude/skills",
+  "layout": "dir",
+  "entry": "SKILL.md",
+  "frontmatter": "yaml",
+  "index": null,
+  "invocation": "/{skill}, or describe the task",
+  "notes": "Paths follow the harness's documented convention (as used by vince-gate's binding of the same id). Not yet watched loading swarmdesk's skills; promote to verified only after doing that."
+}

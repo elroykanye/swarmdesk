@@ -1,0 +1,17 @@
+{
+  "id": "codex",
+  "label": "Codex CLI and other Agent Skills runtimes",
+  "status": "unverified",
+  "detect": [
+    ".codex",
+    ".agents/skills"
+  ],
+  "project_dir": ".agents/skills",
+  "user_dir": "~/.agents/skills",
+  "layout": "dir",
+  "entry": "SKILL.md",
+  "frontmatter": "yaml",
+  "index": null,
+  "invocation": "describe the task; the skill activates on its description",
+  "notes": "Paths follow the harness's documented convention (as used by vince-gate's binding of the same id). Not yet watched loading swarmdesk's skills; promote to verified only after doing that."
+}

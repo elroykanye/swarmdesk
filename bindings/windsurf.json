@@ -1,0 +1,16 @@
+{
+  "id": "windsurf",
+  "label": "Windsurf",
+  "status": "unverified",
+  "detect": [
+    ".windsurf"
+  ],
+  "project_dir": ".windsurf/rules",
+  "user_dir": null,
+  "layout": "flat",
+  "extension": ".md",
+  "frontmatter": "windsurf",
+  "index": "AGENTS.md",
+  "invocation": "@{skill}",
+  "notes": "Paths follow the harness's documented convention (as used by vince-gate's binding of the same id). Not yet watched loading swarmdesk's skills; promote to verified only after doing that."
+}
